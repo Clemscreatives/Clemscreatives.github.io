@@ -124,7 +124,7 @@ p {
 /*--------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(img/hero-image.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(hero-image.jpg);
     height: 100vh;
     width: 100%;
     position: relative;
@@ -368,7 +368,7 @@ header {
 /*--------------------------------*/
 
 .section-skills-banner {
-    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(img/skills-banner-1.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(skills-banner-1.jpg);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -379,7 +379,7 @@ header {
 }
 
 .section-skills-banner:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/skills-banner-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(skills-banner-1.jpg);
     cursor: pointer;
 }
 
