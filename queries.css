@@ -54,8 +54,6 @@
         margin: 18px 40px 0 20px;
         padding: 10px;
     }
-
-    .icon { margin: 0 35%; }    
 }
 
 
@@ -233,16 +231,21 @@
         width: 50%;
     }
 
+    .client {
+        position: absolute;
+        top: -15%;
+        left: 37.7%;
+    }
+
     blockquote {
-        width: 80%;
-        margin-left: 10%;
+        margin-top: 10%;
         font-size: 120%;
     }
     
 
     .contact-details {
-        width: 70%;
-        margin-left: 15%;
+        width: 80%;
+        margin-left: 10%;
         padding-bottom: 25px;
         margin-bottom: 50px;
     }
@@ -256,8 +259,6 @@
     .contact-details li a:visited {
         font-size: 130%;
     }
-
-    .icon { margin: 0 28%; }
 
 }
 
@@ -321,12 +322,13 @@
 
     .client {
         position: absolute;
-        top: -85px;
-        left: 30%;
+        top: -15%;
+        left: 31%;
     }
 
     blockquote {
         width: 80%;
+        margin-top: 25%;
         margin-left: 10%;
         text-align: justify;
         font-size: 120%;
@@ -340,7 +342,14 @@
     .contact-details ion-icon {
         margin-right: 20px;
     }
+}
 
-    .icon { margin: 0 20%; }
+@media only screen and (min-height: 1200px) {
+    header {
+        height: 50vh;
+    }
 
+    .section-skills-banner {
+        height: 50vh;
+    }
 }
